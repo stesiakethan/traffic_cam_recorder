@@ -1,7 +1,7 @@
 # traffic_cam_recorder
 A simple tool that provides a JSON file containing data on all hosted cameras on fl511.com and allows one to record and save streamed footage. Most states have a website with a similar structure, so scripts can be easily modified to extract video from any other website instead.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Installation: This project is built on python 3.10
+Installation: This project is built on python 3.10.
 To install dependencies, run 'python install -r requirements.txt'
 
 To record footage, open the fl511_scraper.py file in your preferred text editor and navigate to the bottom of the script. Follow the instructions commented above the live_video_scraper() function and run the program.
